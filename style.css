@@ -1,0 +1,47 @@
+.open-sans-uniquifier {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+  margin: 0;
+}
+
+/* heder style */
+header{
+  background-image: url(images/banner/banner2.png);
+  background-size: cover;
+  height: 860px;
+  background-repeat: no-repeat;
+}
+.hed{
+  justify-items: end;
+  padding: 215px;
+}
+.header-title{
+  font-size: 65px;
+  font-weight: bold;
+  text-align: right;
+  width: 525px;
+}
+.header-des{
+  font-size: 16px;
+  text-align: right;
+  width: 494px;
+  margin-top: 25px;
+}
+.header-btn{
+  width: 160px;
+  height: 60px;
+  background-color: #F15B22;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
