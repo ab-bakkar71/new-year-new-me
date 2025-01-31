@@ -110,36 +110,104 @@ header{
   font-size: 25px;
   font-weight: 500;
 }
-/* mindset */
+/* mindset section */
 .mindset{
-  background-image: url('images/watch.png'), url('images/gradient2.png');
-  background-repeat: no-repeat, no-repeat;
-  background-size: cover, cover;
-  background-position: center, center;
+  background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('images/watch.png');
+  background-repeat: no-repeat;
   width: 1140px;
   height: 300px;
   margin: 130px auto;
   border-radius: 8px;
-  align-items: center;
-  z-index: 1;
+}
+.mind{
+  padding: 60px 70px;
 }
 .positive{
   width: 459px;
   color: #FFF;
   font-size: 40px;
   font-weight: 700;
-  
+
 }
 .btn-call-now{
   color: #F15B22;
-  width: 160px;
-  height: 64px;
+  background-color: #FFF;
   font-size: 20px;
   font-weight: 600;
-  border-radius: 5px;
+  width: 160px;
+  height: 64px;
   border: 0;
-  margin-top: 24px;
+  border-radius: 7px;
+  margin-top: 15px;
+
+
 }
-.mind{
-  padding: 60px;
+
+/* footer style */
+footer{
+  justify-content: space-between;
+  align-items: center;
+  background-color: #151414;
+  margin-top: 100px;
+  width: 100%;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 130px 230px 90px;
+}
+.footer-section{
+  width: 50%;
+}
+.footer-title{
+  color: #F8F8F8;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer-dsc{
+  width: 485px;
+  color: #fff;
+  font-size: 16px;
+}
+.email{
+  margin: 25px 0px;
+}
+.social-link{
+  margin-top: 25px;
+}
+.social-link a{
+  margin-right: 20px;
+}
+.Subscribe{
+  color: #FFF;
+  font-size: 35px;
+  font-weight: 600;
+}
+.contect input{
+  display: block;
+  color: #FFF;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  background-color: #151414;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  width: 50%;
+}
+.footer-credit {
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  padding: 10px 0px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  width: 100%;
+  
+}
+
+.footer-credit span {
+  font-weight: bold;
+  color: #FFA500; /* অন্য রঙ দিতে চাইলে পরিবর্তন করুন */
 }
