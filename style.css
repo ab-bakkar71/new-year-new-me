@@ -4,7 +4,7 @@
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 
 *{
@@ -44,4 +44,72 @@ header{
   font-size: 20px;
   font-weight: 600;
   margin-top: 30px;
+}
+/* my failures */
+.failures{
+  display: flex;
+  max-width: 1600px;
+  align-items: center;
+  margin: 50px 210px;
+}
+.failure-title{
+  width: 288px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 110px;
+}
+.failure-dsc{
+  width: 416px;
+  color: #444343;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 25px 0px 20px 110px;
+}
+.failure-list{
+  color:#444343;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 70px;
+  list-style: none;
+}
+.failure-list li::before {
+  content: "\2713"; 
+  color:#16D887; 
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 10px;
+}
+/* my-paln */
+.my-paln{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Work Sans";
+  text-align: center;
+}
+.plans-items{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 50px;
+  text-align: center;
+}
+.plane-title{
+  color: var(--Dark-01, #151414);
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 30px;
+  font-weight: 700;
+  margin:15px 0px;
+}
+.plan-des{
+  color: var(--Dark-03, #737272);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+.plan-img{
+  margin-left: 5px;
 }
